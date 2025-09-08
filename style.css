@@ -1,0 +1,152 @@
+
+        .banner {
+            width: 100%;
+            height: 250px;
+            background-image: url("thumbnail_1.png");
+            background-size: cover;
+            background-position: center;
+        }
+        body {
+             margin: 0;
+             height: 100%;
+             position: relative;
+             font-family: 'Inter', sans-serif;;
+        }
+
+
+        .tituloCentral {
+         font-family: 'Playfair Display', serif;
+          font-weight: bolder;
+          font-size: 100px;
+          color: #000000;
+          text-align: center;
+          
+
+        }
+        body::before {
+           content: "";
+         position: absolute;
+          top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: url(1d027e452976a29c0bad2f6595f544a7.jpg) no-repeat center center;
+         background-size: cover; 
+         background-attachment: fixed;
+         background-position: center;
+         opacity: 0.4; 
+         z-index: -1;  
+
+        } 
+        img {
+            margin: 10px;
+        }
+
+        .banner2 {
+         width: 100;
+         height: 900px;
+         background-image: url(ppj2.png);
+         background-size: cover;
+         background-position: center;
+        }
+
+        .tituloPrincipal {
+            font-family: 'Playfair Display', serif;
+            color: #000000;
+            font-size: 100px;
+            font-weight: bolder;
+            text-align: center;
+        }
+        p{
+            font-family: 'Inter', sans-serif;
+            color: #000000;
+            font-size: 40px;
+        }
+        #tituloInfo{
+            font-family: Impact, Charcoal, sans-serif;
+            color: #000000;
+            font-size: 80px;
+        }
+        .destaque{
+            font-weight: bold;
+            color: #000000;
+        }
+        .banner3 {
+            width: 100%;
+            height: 900px;
+            background-image: url(ppj1.png);
+            background-size: cover;
+            background-position: center;
+
+        }
+        #subtitulo {
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            font-size: 50px;
+            text-align: left;
+            font-weight: bolder;
+        }
+        .textoPrincipal {
+         color: #000000;
+         font-size: 40px;
+         text-align: right;
+        }
+        .logo {
+            background-image: url(Site-logo.ico) ;
+            text-align: right;
+
+        }
+        .centralizar {
+            text-align: center;
+            display: block;
+            font-weight: bold;
+        }
+footer {
+    background-image: url('ELEGANCE\ WEAR\ \(3\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;       /* texto branco */
+    padding: 40px 20px;
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .conteudo-footer {
+    max-width: 1000px;
+    width: 100%;
+}
+
+
+
+footer a {
+    color: rgb(255, 0, 0);         /* links vermelhos */
+    text-decoration: none;
+}
+
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+      .foto1, .foto2, .foto3 {
+    width: 900px;
+    height: 900px;           
+    background-size: cover;  
+    background-position: center;
+    border-radius: 30px;     
+    margin: 10px auto;        
+}
+.foto1 { background-image: url('o-chimpanze-bebe-recebeu-o-nome-de-kucheza-que-significa-brincar-em-suaili-uma-lingua-falada-em-varias-nacoes-africanas-1668803219651_v2_1x1.jpg'); }
+.foto2 { background-image: url('thumbnail_image (3).png'); }
+.foto3 { background-image: url('IMG_0264.jpg'); }
